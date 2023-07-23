@@ -1,0 +1,20 @@
+nav {
+  width: 100%;
+  color:#fff ;
+}
+.nav {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-weight: 600;
+  position: sticky;
+}
+.nav li button {
+  background-color: #5d5d5d;
+  border: 1px solid #fed25b;
+  padding: 10px;
+  border-radius: 8px;
+  color: #fed25b;
+  
+}

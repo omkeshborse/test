@@ -1,0 +1,47 @@
+.showcase-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  padding: 2.5rem 0 2.5rem 0;
+}
+.left-showcase,
+.right-showcase {
+  width: 50%;
+}
+.left-showcase {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.right-showcase {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.card {
+  width: 70%;
+  background-image: linear-gradient(to right, #45018e, #013899);
+  border-radius: 55px;
+  line-height: 150%;
+  font-size: 1.2rem;
+  padding: 2rem;
+  color: #ffffff;
+}
+h1 {
+  color: #fff;
+}
+.showcase-section h1 > span,
+.card > h1 {
+  color: #fed25b;
+}
+.showcase-section .right-showcase button {
+  background-color: #fff;
+
+  padding: 5px;
+  font-size: 1.2rem;
+  width: 250px;
+  border-radius: 10px;
+}
