@@ -1,6 +1,8 @@
 nav {
   width: 100%;
   color:#fff ;
+  z-index: 2 ;
+  position: sticky;
 }
 .nav {
   list-style: none;
@@ -8,7 +10,7 @@ nav {
   justify-content: space-evenly;
   align-items: center;
   font-weight: 600;
-  position: sticky;
+  
 }
 .nav li button {
   background-color: #5d5d5d;

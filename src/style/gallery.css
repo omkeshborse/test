@@ -1,0 +1,32 @@
+.gallery-section {
+  height: 120vh;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  margin-top: -15rem;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.gallery img {
+  height: 230px;
+  margin: 1rem;
+  filter: opacity(0.4);
+}
+.down {
+  position: relative;
+  top: 1.5rem;
+}
+
+.gallery-section h1{
+    z-index: 2;
+  align-self: center;
+    position: relative;
+    top: 50%;
+    font-size: 4rem ;
+    color: #fff0f0;
+    text-align: center;
+}
