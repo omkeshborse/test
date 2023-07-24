@@ -13,10 +13,11 @@ import galleryimg9 from "../assets/Component44.png";
 const Gallery = () => {
   return (
     <>
-      <section className="gallery-section">
+      <section className="gallery-section" id="Blog">
         <h1>
-          eiusmod nostrud labore et velit <br /> 
-          culpa commodo. Ipsum anim<br />
+          eiusmod nostrud labore et velit <br />
+          culpa commodo. Ipsum anim
+          <br />
           reprehenderit id nostrud
         </h1>
         <div className="gallery">

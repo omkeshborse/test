@@ -1,21 +1,30 @@
 import React from "react";
-import logo from '../assets/LOGO.png'
+import logo from "../assets/LOGO.png";
 import "../style/navbar.css";
 
 const NavBar = () => {
-  
   return (
     <>
-    <nav >
+      <nav>
         <ul className="nav">
-            <li><img src={logo} alt="" /></li>
-            <li>Home</li>
-            <li>Program</li>
-            <li>pricing</li>
-            <li>Blog</li>
-            <li><button>Login/signup</button></li>
+          <li>
+            <img src={logo} alt="" />
+          </li>
+          <li>
+            <a href="/">Home</a>
+          </li>
+          <li>
+            <a href="#showcase-section">Program</a>
+          </li>
+          <li>pricing</li>
+          <li>
+            <a href="#Blog">Blog</a>
+          </li>
+          <li>
+            <button>Login/signup</button>
+          </li>
         </ul>
-    </nav>
+      </nav>
     </>
   );
 };

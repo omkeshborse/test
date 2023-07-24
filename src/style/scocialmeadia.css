@@ -1,0 +1,48 @@
+.staytuned {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  display: flex;
+  background-image: linear-gradient(to right, #45018e, #013899);
+  padding: 5rem 9rem 5rem 9rem;
+
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 6rem;
+
+}
+.container div {
+    margin: 1rem;
+    text-align: center;
+}
+.container div h1 {
+    font-size: 3rem;
+    padding: 0;
+    color: #948ed2;
+}
+.container p {
+    font-size: 1rem;
+    color: #fff;
+}
+.service ul li{
+    list-style: none;
+    margin: 1rem;
+    font-size: 1rem;
+    color: #fff;
+    
+}
+.service {
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+    margin: 1rem;
+}
+.sociallinks ul{
+    display: flex;
+}
+.sociallinks ul li  img {
+    width: 25px;
+}

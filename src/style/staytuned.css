@@ -1,0 +1,45 @@
+.staytuned {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  display: flex;
+  background-image: linear-gradient(to right, #45018e, #013899);
+  padding: 5rem 11rem 5rem 11rem;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 6rem;
+
+}
+.container div {
+    margin: 1rem;
+    text-align: center;
+}
+.container div h1 {
+    font-size: 4rem;
+    padding: 0;
+    color: #948ed2;
+}
+.container p {
+    font-size: 1.5rem;
+    color: #fff;
+}
+.container .input-box input {
+    width: 350px;
+    height: 1.5rem;
+    padding: 15px;
+    border-radius: 50px;
+    font-size: 1.5rem;
+    border: none;
+    outline: none;
+}
+.container .input-box button {
+    position: relative;
+    left: -5rem;
+    padding: 12px;
+    border-radius: 25px;
+    border: none;
+    background-color: #fed25b;
+}
